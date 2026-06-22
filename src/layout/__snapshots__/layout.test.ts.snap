@@ -1,0 +1,671 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layout() > matches the snapshot for the sample installation 1`] = `
+{
+  "height": 694,
+  "nodes": [
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "id": "load1",
+                        "label": "Steckdosen",
+                        "type": "load",
+                      },
+                    ],
+                    "id": "ls1",
+                    "label": "LS",
+                    "meta": {
+                      "rating": "B16",
+                    },
+                    "type": "breaker",
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "id": "load2",
+                        "label": "Licht",
+                        "type": "load",
+                      },
+                    ],
+                    "id": "ls2",
+                    "label": "LS",
+                    "meta": {
+                      "rating": "B16",
+                    },
+                    "type": "breaker",
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "id": "load3",
+                        "label": "Herd",
+                        "type": "load",
+                      },
+                    ],
+                    "id": "ls3",
+                    "label": "LS",
+                    "meta": {
+                      "rating": "B10",
+                    },
+                    "type": "breaker",
+                  },
+                ],
+                "id": "fi1",
+                "label": "FI",
+                "meta": {
+                  "rating": "40A",
+                  "trip": "30mA",
+                },
+                "type": "rcd",
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "id": "trafo",
+                    "label": "Klingeltrafo",
+                    "type": "load",
+                  },
+                  {
+                    "children": [],
+                    "id": "heizung",
+                    "label": "Heizung",
+                    "type": "load",
+                  },
+                ],
+                "id": "x1",
+                "label": "Klemmleiste X1",
+                "type": "terminal-block",
+              },
+            ],
+            "id": "main",
+            "label": "Hauptschalter",
+            "meta": {
+              "rating": "63A",
+            },
+            "type": "main-switch",
+          },
+        ],
+        "id": "supply",
+        "label": "Einspeisung",
+        "meta": {
+          "system": "3~ 400V",
+        },
+        "type": "supply",
+      },
+      "width": 130,
+      "x": 295,
+      "y": 32,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "id": "load1",
+                    "label": "Steckdosen",
+                    "type": "load",
+                  },
+                ],
+                "id": "ls1",
+                "label": "LS",
+                "meta": {
+                  "rating": "B16",
+                },
+                "type": "breaker",
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "id": "load2",
+                    "label": "Licht",
+                    "type": "load",
+                  },
+                ],
+                "id": "ls2",
+                "label": "LS",
+                "meta": {
+                  "rating": "B16",
+                },
+                "type": "breaker",
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "id": "load3",
+                    "label": "Herd",
+                    "type": "load",
+                  },
+                ],
+                "id": "ls3",
+                "label": "LS",
+                "meta": {
+                  "rating": "B10",
+                },
+                "type": "breaker",
+              },
+            ],
+            "id": "fi1",
+            "label": "FI",
+            "meta": {
+              "rating": "40A",
+              "trip": "30mA",
+            },
+            "type": "rcd",
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "id": "trafo",
+                "label": "Klingeltrafo",
+                "type": "load",
+              },
+              {
+                "children": [],
+                "id": "heizung",
+                "label": "Heizung",
+                "type": "load",
+              },
+            ],
+            "id": "x1",
+            "label": "Klemmleiste X1",
+            "type": "terminal-block",
+          },
+        ],
+        "id": "main",
+        "label": "Hauptschalter",
+        "meta": {
+          "rating": "63A",
+        },
+        "type": "main-switch",
+      },
+      "width": 120,
+      "x": 300,
+      "y": 172,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "id": "load1",
+                "label": "Steckdosen",
+                "type": "load",
+              },
+            ],
+            "id": "ls1",
+            "label": "LS",
+            "meta": {
+              "rating": "B16",
+            },
+            "type": "breaker",
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "id": "load2",
+                "label": "Licht",
+                "type": "load",
+              },
+            ],
+            "id": "ls2",
+            "label": "LS",
+            "meta": {
+              "rating": "B16",
+            },
+            "type": "breaker",
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "id": "load3",
+                "label": "Herd",
+                "type": "load",
+              },
+            ],
+            "id": "ls3",
+            "label": "LS",
+            "meta": {
+              "rating": "B10",
+            },
+            "type": "breaker",
+          },
+        ],
+        "id": "fi1",
+        "label": "FI",
+        "meta": {
+          "rating": "40A",
+          "trip": "30mA",
+        },
+        "type": "rcd",
+      },
+      "width": 140,
+      "x": 150,
+      "y": 312,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [],
+            "id": "load1",
+            "label": "Steckdosen",
+            "type": "load",
+          },
+        ],
+        "id": "ls1",
+        "label": "LS",
+        "meta": {
+          "rating": "B16",
+        },
+        "type": "breaker",
+      },
+      "width": 96,
+      "x": 32,
+      "y": 452,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [],
+        "id": "load1",
+        "label": "Steckdosen",
+        "type": "load",
+      },
+      "width": 96,
+      "x": 32,
+      "y": 592,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [],
+            "id": "load2",
+            "label": "Licht",
+            "type": "load",
+          },
+        ],
+        "id": "ls2",
+        "label": "LS",
+        "meta": {
+          "rating": "B16",
+        },
+        "type": "breaker",
+      },
+      "width": 96,
+      "x": 172,
+      "y": 452,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [],
+        "id": "load2",
+        "label": "Licht",
+        "type": "load",
+      },
+      "width": 96,
+      "x": 172,
+      "y": 592,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [],
+            "id": "load3",
+            "label": "Herd",
+            "type": "load",
+          },
+        ],
+        "id": "ls3",
+        "label": "LS",
+        "meta": {
+          "rating": "B10",
+        },
+        "type": "breaker",
+      },
+      "width": 96,
+      "x": 312,
+      "y": 452,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [],
+        "id": "load3",
+        "label": "Herd",
+        "type": "load",
+      },
+      "width": 96,
+      "x": 312,
+      "y": 592,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [
+          {
+            "children": [],
+            "id": "trafo",
+            "label": "Klingeltrafo",
+            "type": "load",
+          },
+          {
+            "children": [],
+            "id": "heizung",
+            "label": "Heizung",
+            "type": "load",
+          },
+        ],
+        "id": "x1",
+        "label": "Klemmleiste X1",
+        "type": "terminal-block",
+      },
+      "width": 160,
+      "x": 490,
+      "y": 312,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [],
+        "id": "trafo",
+        "label": "Klingeltrafo",
+        "type": "load",
+      },
+      "width": 96,
+      "x": 452,
+      "y": 452,
+    },
+    {
+      "height": 70,
+      "node": {
+        "children": [],
+        "id": "heizung",
+        "label": "Heizung",
+        "type": "load",
+      },
+      "width": 96,
+      "x": 592,
+      "y": 452,
+    },
+  ],
+  "width": 720,
+  "wires": [
+    {
+      "points": [
+        {
+          "x": 360,
+          "y": 102,
+        },
+        {
+          "x": 360,
+          "y": 137,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 360,
+          "y": 137,
+        },
+        {
+          "x": 360,
+          "y": 172,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 360,
+          "y": 242,
+        },
+        {
+          "x": 360,
+          "y": 277,
+        },
+      ],
+    },
+    {
+      "bus": true,
+      "points": [
+        {
+          "x": 220,
+          "y": 277,
+        },
+        {
+          "x": 570,
+          "y": 277,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 220,
+          "y": 277,
+        },
+        {
+          "x": 220,
+          "y": 312,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 570,
+          "y": 277,
+        },
+        {
+          "x": 570,
+          "y": 312,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 173.33333333333334,
+          "y": 382,
+        },
+        {
+          "x": 173.33333333333334,
+          "y": 417,
+        },
+        {
+          "x": 80,
+          "y": 417,
+        },
+        {
+          "x": 80,
+          "y": 452,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 220,
+          "y": 382,
+        },
+        {
+          "x": 220,
+          "y": 417,
+        },
+        {
+          "x": 220,
+          "y": 417,
+        },
+        {
+          "x": 220,
+          "y": 452,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 266.6666666666667,
+          "y": 382,
+        },
+        {
+          "x": 266.6666666666667,
+          "y": 417,
+        },
+        {
+          "x": 360,
+          "y": 417,
+        },
+        {
+          "x": 360,
+          "y": 452,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 80,
+          "y": 522,
+        },
+        {
+          "x": 80,
+          "y": 557,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 80,
+          "y": 557,
+        },
+        {
+          "x": 80,
+          "y": 592,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 220,
+          "y": 522,
+        },
+        {
+          "x": 220,
+          "y": 557,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 220,
+          "y": 557,
+        },
+        {
+          "x": 220,
+          "y": 592,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 360,
+          "y": 522,
+        },
+        {
+          "x": 360,
+          "y": 557,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 360,
+          "y": 557,
+        },
+        {
+          "x": 360,
+          "y": 592,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 530,
+          "y": 382,
+        },
+        {
+          "x": 530,
+          "y": 417,
+        },
+        {
+          "x": 500,
+          "y": 417,
+        },
+        {
+          "x": 500,
+          "y": 452,
+        },
+      ],
+    },
+    {
+      "points": [
+        {
+          "x": 610,
+          "y": 382,
+        },
+        {
+          "x": 610,
+          "y": 417,
+        },
+        {
+          "x": 640,
+          "y": 417,
+        },
+        {
+          "x": 640,
+          "y": 452,
+        },
+      ],
+    },
+  ],
+}
+`;
